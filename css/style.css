@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.first {
+    background-image: url(../img/jback2.jpg);
+    position: relative;
+    background-attachment: fixed;
+
+
+}
+
+.overLay {
+    position: absolute;
+    background: -webkit-gradient(linear, right top, left top, from(black), color-stop(rgba(0, 0, 0, .8)), color-stop(rgba(0, 0, 0, .9)), to(rgba(0, 0, 0, .5)));
+    background: linear-gradient(to left, black, rgba(0, 0, 0, .8), rgba(0, 0, 0, .9), rgba(0, 0, 0, .5));
+    height: 700px;
+    width: 100%;
+    margin-top: -350px;
+}
+
+.heading {
+    margin-top: 220px;
+
+}
+
+.heading h1,
+p {
+    margin: auto;
+}
+
+
+
+.overLay h1 {
+    font-family: Palace Script MT;
+    font-size: 100px;
+    font-weight: bold;
+
+}
+
+.little {
+    font-family: Palace Script MT;
+    font-size: 50px;
+}
+
+.subTitle {
+    font-size: 25px;
+}
+
+.bar {
+    background: white;
+    width: 100px;
+    height: 2px;
+}
+
+.moto {
+    font-family: Palace Script MT;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.bheading h1 {
+    font-family: Palace Script MT;
+    font-size: 100px;
+    font-weight: bold;
+
+}
+
+.all img {
+
+    width: 100%;
+}
+
+.sel {
+    position: relative;
+}
+
+.overLayTwo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+
+    background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(black), color-stop(black), color-stop(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .9)), to(black));
+
+
+    background: linear-gradient(to bottom, black, black, black, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9), rgba(0, 0, 0, .9), rgba(0, 0, 0, .9), black);
+}
+
+.wholeDiv {
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+.minOverLay {
+    position: absolute;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(192, 192, 192, .1)), color-stop(rgba(192, 192, 192, .2)), color-stop(silver), color-stop(rgba(192, 192, 192, .2)), to(rgba(192, 192, 192, .1)));
+    background: linear-gradient( rgba(192, 192, 192, .1), rgba(192, 192, 192, .2), silver, rgba(192, 192, 192, .2), rgba(192, 192, 192, .1));
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    -webkit-transition: .5s;
+    -webkit-transition: .7s;
+    transition: .7s;
+    z-index: 1;
+
+
+
+
+}
+
+.wholeDiv:hover .minOverLay {
+    top: 0%;
+
+}
+
+.wholeDiv img {
+    -webkit-transition: .7s;
+    transition: .7s;
+
+}
+
+.wholeDiv:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.minOverLay a {
+    background: silver;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 15px;
+    border-radius: 5px;
+    -webkit-transition: .7s;
+    transition: .7s;
+
+}
+
+.minOverLay a:hover {
+    color: white;
+}
+
+.bheading p {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+.neck {
+    background-image: url(../img/main2.jpg);
+    height: 680px;
+    position: relative;
+}
+
+.overLayNeck {
+    position: absolute;
+    background: -webkit-gradient(linear, right top, left top, from(black), color-stop(rgba(0, 0, 0, .4)), color-stop(rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, .5)));
+    background: linear-gradient(to left, black, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4), rgba(0, 0, 0, .5));
+    height: 700px;
+    width: 100%;
+
+}
+
+.navbar-reverse a {
+    color: white;
+    background: transparent;
+    font-family: Palace Script MT;
+    ;
+    font-size: 30px;
+}
+
+.navbar-reverse ul li a:hover {
+    color: silver;
+    background: transparent;
+}
+
+.form {
+    max-width: 50%;
+    margin: auto;
+}
+
+.heading {
+    display: none;
+}
+
+.barTwo {
+    background: white;
+    width: 100px;
+    height: 2px;
+    margin: auto;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
